@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyrfc3339
 Version  : 1.1
-Release  : 17
+Release  : 18
 URL      : https://files.pythonhosted.org/packages/00/52/75ea0ae249ba885c9429e421b4f94bc154df68484847f1ac164287d978d7/pyRFC3339-1.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/00/52/75ea0ae249ba885c9429e421b4f94bc154df68484847f1ac164287d978d7/pyRFC3339-1.1.tar.gz
 Summary  : Generate and parse RFC 3339 timestamps
@@ -14,9 +14,6 @@ Requires: pypi-pyrfc3339-license = %{version}-%{release}
 Requires: pypi-pyrfc3339-python = %{version}-%{release}
 Requires: pypi-pyrfc3339-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pyRFC3339
-Provides: pyRFC3339-python
-Provides: pyRFC3339-python3
 BuildRequires : pypi(nose)
 BuildRequires : pypi(pytz)
 
@@ -60,7 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641478045
+export SOURCE_DATE_EPOCH=1651170037
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
